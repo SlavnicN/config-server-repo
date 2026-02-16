@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="149c9fee-9751-477a-aebc-94699f9ac30b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/eureka-server.properties" afterDir="false" />
+    <list default="true" id="149c9fee-9751-477a-aebc-94699f9ac30b" name="Changes" comment="Clean up unused properties in eureka-server configuration.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,9 +44,11 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "main",
@@ -60,6 +64,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecapSpentCounter">
+    <option name="endsOfQuotaMs" value="1773070416352" />
+    <option name="spentUsd" value="0.002386" />
+  </component>
+  <component name="RecapUselessUpdatesCounter">
+    <option name="suspendCountdown" value="8" />
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -78,11 +89,33 @@
       <workItem from="1770994474062" duration="3000" />
       <workItem from="1770995554214" duration="5000" />
       <workItem from="1771254651572" duration="97000" />
-      <workItem from="1771254756405" duration="435000" />
+      <workItem from="1771254756405" duration="2202000" />
     </task>
+    <task id="LOCAL-00001" summary="Configure eureka-server properties and update project settings for microservice-produits.">
+      <option name="closed" value="true" />
+      <created>1771255254590</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1771255254590</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Clean up unused properties in eureka-server configuration.">
+      <option name="closed" value="true" />
+      <created>1771255306127</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1771255306127</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Configure eureka-server properties and update project settings for microservice-produits." />
+    <MESSAGE value="Clean up unused properties in eureka-server configuration." />
+    <option name="LAST_COMMIT_MESSAGE" value="Clean up unused properties in eureka-server configuration." />
   </component>
 </project>
