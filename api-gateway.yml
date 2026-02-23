@@ -1,0 +1,46 @@
+server:
+  port: 9100
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: gateway,health
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9102/eureka/
+  instance:
+    prefer-ip-address: true
+
+spring:
+  cloud:
+    gateway:
+      server:
+        webflux:
+          routes:
+            - id: account-service
+              uri: lb://account-microservice
+              predicates:
+                - Path=/accounts,/accounts/**
+
+            - id: card-service
+              uri: lb://card-microservice
+              predicates:
+                - Path=/cards,/cards/**
+
+            - id: transaction-service
+              uri: lb://transaction-microservice
+              predicates:
+                - Path=/transactions,/transactions/**
+
+            - id: virement
+              uri: lb://transaction-microservice
+              predicates:
+                - Path=/virement
+
+            - id: retrait
+              uri: lb://transaction-microservice
+              predicates:
+                - Path=/retrait
